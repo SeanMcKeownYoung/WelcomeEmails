@@ -1,0 +1,113 @@
+<style>
+  .story1 {
+    text-align: left;
+    padding: 1rem 0rem;
+    margin: 0;
+    border-bottom: 1px solid #4e5154;
+  }
+
+  .story1:last-child {
+    padding: 1rem 0rem;
+    margin: 0;
+    border-bottom: 0px solid #ffffff !important;
+  }
+
+  .story-content {
+    display: inline-block;
+    width: calc(100% - 1rem);
+    vertical-align: top;
+  }
+
+  .story1 .story-title {
+    font-family: Georgia, "Times New Roman", serif;
+    font-weight: 900;
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.2rem;
+  }
+
+
+  .story-title:hover {
+    text-decoration: none;
+  }
+
+  .story1 .story-desc {
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    font-size: 0.75rem;
+    color: #e9eaea;
+    line-height: 1.2;
+    display: inline;
+    /* keep ...see more on the same line */
+    margin-top: 0.2rem;
+    text-decoration: none;
+  }
+
+  .story-desc:hover {
+    text-decoration: none;
+  }
+
+  /* Continue reading link: visible, no underline, hover "pop" */
+  a.story-continue-link,
+  a.story-continue-link:link,
+  a.story-continue-link:visited {
+    color: #2c9afc !important;
+    text-decoration: none !important;
+    border-bottom: none !important;
+  }
+
+  a.story-continue-link:hover,
+  a.story-continue-link:focus {
+    color: #2c9afc !important;
+    text-decoration: none !important;
+    border-bottom: none !important;
+    font-weight: 600;
+    outline: none;
+  }
+
+  .story-continue {
+    font-size: 0.75rem;
+    white-space: nowrap;
+    margin-left: 0.25rem;
+    color: #0086ff !important;
+  }
+
+
+  .story-tags {
+    display: none;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    font-size: 0.75rem;
+    color: #777;
+    margin-top: 0.35rem;
+    /* space below description / see more */
+  }
+</style>
+
+
+<!-- {content = filter_content(content, lambda x: !contains(x.tags, 'opinion') && !contains(x.tags, 'advice'))} -->
+
+
+{foreach slice(content, 1, 3) as c}
+{otherStories = replace(c.url, "../../", "https://reader.theoregonian.com/")}
+
+<div class="story1">
+  <span class="story-title">{c.title}</span><br />
+  {img = c.image}
+  {desc = c.description}
+  {pre = substr(desc, 0, 200)}
+  {last_space = strrpos(pre, " ")}
+  {preview = pre}
+  {if last_space != -1}{preview = substr(pre, 0, last_space)}{/if}
+
+  <!-- Description stays plain text (unlinked) -->
+  <!-- Hide Continue Reading and show full description for testing purposes -->
+  <!-- <span class="story-desc">{preview}</span> -->
+  <span class="story-desc">{c.description}</span>
+  <!-- “…continue reading” is always visible, no underline; pops on hover -->
+  <a href="{otherStories}" class="story-continue-link" style="text-decoration:none; color:#0a66c2;">
+    <span class="story-continue"> READ HERE</span>
+
+  </a><br>
+  <span class="story-tags">{c.tags}</span>
+</div>
+
+{/foreach}
