@@ -1,0 +1,564 @@
+<head>
+  <meta name="x-apple-disable-message-reformatting">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <style>
+
+    		/* Outlines the grids, remove when sending
+		table td { border: 1px solid rgb(0, 217, 255); }*/
+
+
+    body {
+        background-color: #E4E4E4 !important;
+    }
+@media (prefers-color-scheme: dark) {
+  .light-img { display: none !important; }
+  .dark-img { display: block !important; width: 300px !important; max-height:300px !important; overflow: hidden !important; height: auto !important;}
+}
+
+/* Outlook App Target */
+[data-ogsc] .light-img { display: none !important; }
+[data-ogsc] .dark-img { display: block !important; width: auto !important; }
+
+    footer p, .footerAddress a{
+        color:#25282c;
+    }
+    .footerBttns-Container .footerBttns-Buttons .footerBttns a,
+    p {
+      transition: all 0.2s ease-in-out;
+    }
+
+    .footerBttns-Container:hover .footerBttns-Buttons .footerBttns a {
+              opacity: 0.5;
+      background-color: #727a85 !important;
+      border:1px solid #727a85 !important; 
+      border-radius:28px;color:#727a85 !important;
+      transition: all 0.2s ease-in-out;
+    }
+
+    .footerBttns-Container .footerBttns-Buttons .footerBttns v:roundrect,
+    v:fill {
+      transition: all 0.2s ease-in-out;
+    }
+
+    .footerBttns-Container:hover .footerBttns-Buttons .footerBttns v:fill {
+      opacity: 1.0;
+      transition: all 0.2s ease-in-out;
+    }
+
+    .footerBttns-Container:hover .footerBttns-Buttons .footerBttns2 a {
+              opacity: 0.5;
+      background-color: #727a85 !important;
+      border:1px solid #727a85 !important; 
+      border-radius:28px;color:#727a85 !important;
+      transition: all 0.2s ease-in-out;
+    }
+
+    .footerBttns-Container:hover .footerBttns-Buttons .footerBttns2 v:fill {
+      opacity: 1.0;
+      transition: all 0.2s ease-in-out;
+    }
+
+    .footerBttns-Container:hover .footerBttns-Buttons .footerBttns p {
+      opacity: 0.5;
+      transition: all 0.2s ease-in-out;
+    }
+
+    .footerBttns-Container:hover .footerBttns-Buttons .footerBttns2 p {
+      opacity: 0.5;
+      transition: all 0.2s ease-in-out;
+    }
+
+    .footerBttns-Container:hover .footerBttns-Label p {
+      opacity: 0.5;
+      transition: all 0.2s ease-in-out;
+    }
+
+    .footerBttns-Container .footerBttns-Group:hover .footerBttns a {
+    opacity: 0.5;
+      background-color: #727a85 !important;
+      transition: all 0.2s ease-in-out;
+    }
+
+    .footerBttns-Container .footerBttns-Group:hover .footerBttns v:fill {
+      opacity: 1.0;
+      transition: all 0.2s ease-in-out;
+    }
+
+    .footerBttns-Container .footerBttns-Group:hover .footerBttns p {
+      opacity: 0.5;
+      transition: all 0.2s ease-in-out;
+    }
+
+    .footerBttns-Container .footerBttns-Buttons :hover.footerBttns a {
+    opacity: 1.0;
+      background-color: #F6CA15 !important;
+        border:1px solid #fff !important; 
+      border-radius:28px;color:#fff !important;
+      transition: all 0.2s ease-in-out;
+    }
+
+    .footerBttns-Container .footerBttns-Buttons :hover.footerBttns v:fill {
+      opacity: 1.0;
+      transition: all 0.2s ease-in-out;
+    }
+
+    .footerBttns-Container .footerBttns-Buttons :hover.footerBttns2 a {
+      background-color: #F6CA15 !important;
+      transition: all 0.2s ease-in-out;
+    }
+
+    .footerBttns-Container .footerBttns-Group2:hover .footerBttns a {
+      background-color: #fff !important;
+      transition: all 0.2s ease-in-out;
+    }
+
+    .footerBttns-Container .footerBttns-Group2:hover .footerBttns v:fill {
+      opacity: 0.5;
+      transition: all 0.2s ease-in-out;
+    }
+
+    .footerBttns-Container .footerBttns-Buttons :hover.footerBttns2 p {
+      opacity: 1.0;
+      transition: all 0.2s ease-in-out;
+    }
+
+    .footerBttns-Container .footerBttns-Buttons :hover.footerBttns p {
+      opacity: 1.0;
+      transition: all 0.2s ease-in-out;
+    }
+
+    .footerBttns-Container .footerBttns-Group:hover p {
+      opacity: 1.0;
+      transition: all 0.2s ease-in-out;
+    }
+
+    @media all and (max-width:620px) {
+      .spacerMob {
+        height: 28px
+      }
+
+      .imgresize80 img {
+        width: 80% !important;
+        height: auto !important;
+      }
+
+      .mobile-hpad {
+        padding: 0px 20px;
+      }
+
+      .footerTxt p {
+        font-size: 16px;
+        line-height: 32px;
+      }
+
+
+
+    }
+    @media (prefers-color-scheme: dark) {
+    footer p, .footerAddress a{
+        color:#E7E7E5 !important;
+    }
+    footer {
+        background-color: #000000 !important;
+    }
+    .row-content {
+        background-color: #000000 !important;
+    }
+    body {
+        background-color:#000000 !important;
+    }
+    .txtHighlight {
+        color: #F6CA15 !important;
+    }
+    }
+
+  </style>
+</head>
+
+<footer style="margin:0; padding:0; mso-line-height-rule: exactly; width: 100%; background-color: #E4E4E4;">
+  <table class="row row-3" align="center" width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace:0;mso-table-rspace:0">
+    <tbody>
+      <tr>
+        <td>
+          <table class="row-content stack" align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace:0;mso-table-rspace:0;border-radius:0;color:#000;width:600px;margin:0 auto; background-color:#E4E4E4;" width="600" bgcolor="#E4E4E4">
+            <tbody>
+              <tr>
+                <!--SPACER-->
+              <tr>
+                <td height="36" style="font-size:10px; line-height:1px; mso-line-height-rule:exactly;">&nbsp;<br></td>
+              </tr>
+              <td class="column column-1" width="100%" style="mso-table-lspace:0;mso-table-rspace:0;font-weight:400;text-align:center;padding-bottom:5px;padding-top:5px;vertical-align:top">
+                <table class="image_block block-1" width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace:0;mso-table-rspace:0">
+                  <tbody>
+                    <tr>
+                      <td class="pad" style="padding-bottom:10px;padding-left:25px;padding-right:10px;padding-top:10px;width:100%">
+                        <div class="alignment" align="center">
+                          <div class="fullWidth imgresize80" style="max-width:300px">
+
+                                <!-- Light Mode Image (Visible by default) -->
+                                <img src="images/ORE 175 Footer Logo_Lt.png" alt="The Oregonian" title="The Oregonian" class="light-img" width="300" style="display: block;">
+
+                                <!-- Dark Mode Image (Hidden by default) -->
+                                <div class="dark-img" style="display:none; overflow:hidden; float:left; width:0; height:0; max-height:0; line-height:0; mso-hide:all;">
+                                  <img src="images/ORE 175 Footer Logo_Dk.png" alt="The Oregonian" title="The Oregonian" width="300" style="display: block;">
+                                </div>
+
+                          </div>
+                        </div>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </td>
+      </tr>
+    </tbody>
+  </table>
+
+  <table class="row-content stack" align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace:0;mso-table-rspace:0;border-radius:0;color:#000;width:600px;margin:0 auto; background-color:#E4E4E4;" width="600" bgcolor="#E4E4E4">
+    <tbody>
+      <!--SPACER MOBILE ONLY-->
+      <tr>
+        <td height="0" class="spacerMob" style="font-size:10px; line-height:1px; mso-line-height-rule:exactly;">&nbsp;<br></td>
+      </tr>
+      <tr>
+
+        <td align="center" valign="top">
+          <!-- START FOOTER BUTTONS CONTAINER-->
+          <table class="footerBttns-Container" role="presentation" width="360" cellpadding="0" cellspacing="0" border="0">
+            <tr>
+              <!-- START FOOTER BUTTON GROUP 01-->
+              <td align="center" valign="top">
+                <table class="footerBttns-Group" role="presentation" width="120" height="120" cellpadding="0" cellspacing="0" border="0">
+                  <tr>
+                    <!-- START FOOTER LABEL 01-->
+                    <td align="center" valign="top">
+                      <table class="footerBttns-Label footerTxt" role="presentation" width="120" height="30" cellpadding="0" cellspacing="0" border="0">
+                        <tr>
+                          <td align="center" valign="top">
+                            <p style="font-family:'Helvetica Neue', Helvetica, Arial, sans-serif; font-size:14px; line-height:16px; font-weight: 600; text-wrap: balance; -webkit-font-smoothing: antialiased; text-rendering: optimizeLegibility">Get the app</p>
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                  <!-- SPACER BELOW CORRECTS OUTLOOK RENDERING ISSUE-->
+                  <!--[if mso]>
+                                                <tr><td height="10" style="font-size:10px; line-height:1px; mso-line-height-rule:exactly;">&nbsp;<br></td></tr>
+                                                <![endif]-->
+                  <tr>
+                    <td align="center" valign="top">
+                      <table class="footerBttns-Buttons" role="presentation" width="120" height="90" cellpadding="0" cellspacing="0" border="0">
+                        <tr>
+                          <!-- START FOOTER BUTTON 01-->
+                          <td align="center" valign="top">
+                            <table class="footerBttns" role="presentation" width="60" height="90" cellpadding="0" cellspacing="0" border="0">
+                              <tr>
+                                <td align="center" valign="top">
+                                  <table role="presentation" width="50" height="50" cellpadding="0" cellspacing="0" border="0">
+                                    <tr>
+                                      <td align="center" valign="top">
+                                        <!--[if mso]>
+                                                                                        <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="https://apps.apple.com/us/app/the-oregonian-news/id592167236" target="_blank" style="height:37.5pt;v-text-anchor:middle;width:37.5pt;" arcsize="50%" strokecolor="#F6CA15" fill="t">
+                                                                                            <v:fill type="frame" src="https://media.sailthru.com/fss/fld6id/a2760688-fc9e-47a2-921e-881efdb255c2/HELP+dk_apple.png" color="#F6CA15" />
+                                                                                            <w:anchorlock/>
+                                                                                            <center style="color:transparent;mso-style-textfill-type: none;font-family:sans-serif;font-size:1px;line-height:50px"></center>
+                                                                                        </v:roundrect>
+                                                                                        <![endif]--><a href="https://apps.apple.com/us/app/the-oregonian-news/id592167236" target="_blank" style="background-color:#F6CA15;background-image:url(https://media.sailthru.com/fss/fld6id/a2760688-fc9e-47a2-921e-881efdb255c2/HELP+dk_apple.png);background-size: 50px; background-repeat: no-repeat; background-position: center middle;border:1px solid #F6CA15; border-radius:25px;color:#F6CA15;display:inline-block;font-family:sans-serif;font-size:1px;font-weight:bold;line-height:50px;text-align:center;text-decoration:none;width:50px;-webkit-text-size-adjust:none;mso-hide:all;" alt="Download the Apple App">apple</a>
+                                      </td>
+                                    </tr>
+                                  </table>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td align="center" valign="top">
+                                  <p style="font-family:'Helvetica Neue', Helvetica, Arial, sans-serif; font-size:12px; line-height:16px; font-weight: 500; text-align: center; text-wrap: balance; -webkit-font-smoothing: antialiased; text-rendering: optimizeLegibility">apple</p>
+                                </td>
+                              </tr>
+                            </table>
+                          </td>
+                          <!-- END FOOTER BUTTON 01 -->
+                          <!-- START FOOTER BUTTON 02-->
+                          <td align="center" valign="top">
+                            <table class="footerBttns" role="presentation" width="60" height="90" cellpadding="0" cellspacing="0" border="0">
+                              <tr>
+                                <td align="center" valign="top">
+                                  <table role="presentation" width="50" height="50" cellpadding="0" cellspacing="0" border="0">
+                                    <tr>
+                                      <td align="center" valign="top">
+                                        <!--[if mso]>
+                                            <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="https://play.google.com/store/apps/details?id=com.advancelocal.portlandoregonian" target="_blank" style="height:37.5pt;v-text-anchor:middle;width:37.5pt;" arcsize="50%" strokecolor="#F6CA15" fill="t">
+                                                <v:fill type="frame" src="https://media.sailthru.com/fss/fld6id/73f77cf8-f3d6-41be-8ec6-336e03364dab/HELP+dk_google.png" color="#F6CA15" />
+                                                    <w:anchorlock/>
+                                                    <center style="color:transparent;mso-style-textfill-type: none;font-family:sans-serif;font-size:1px;line-height:50px"></center>
+                                            </v:roundrect>
+                                                <![endif]--><a href="https://play.google.com/store/apps/details?id=com.advancelocal.portlandoregonian" target="_blank" style="background-color:#F6CA15;background-image:url(https://media.sailthru.com/fss/fld6id/73f77cf8-f3d6-41be-8ec6-336e03364dab/HELP+dk_google.png);background-size: 50px; background-repeat: no-repeat; background-position: center middle;border:1px solid #F6CA15;border-radius:28px;color:#F6CA15;display:inline-block;font-family:sans-serif;font-size:1px;font-weight:bold;line-height:50px;text-align:center;text-decoration:none;width:50px;-webkit-text-size-adjust:none;mso-hide:all;" alt="Download the Google Play Store App">google</a>
+                                      </td>
+                                    </tr>
+                                  </table>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td align="center" valign="top">
+                                  <p style="font-family:'Helvetica Neue', Helvetica, Arial, sans-serif; font-size:12px; line-height:16px; font-weight: 500; text-align: center; text-wrap: balance; -webkit-font-smoothing: antialiased; text-rendering: optimizeLegibility">google</p>
+                                </td>
+                              </tr>
+                            </table>
+                          </td>
+                          <!-- END FOOTER BUTTON 02 -->
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+              <!-- END FOOTER BUTTON GROUP 01-->
+              <!-- START FOOTER BUTTON GROUP NULL-->
+              <td align="center" valign="top">
+                <table class="footerBttns-Group2" role="presentation" width="120" height="120" cellpadding="0" cellspacing="0" border="0">
+                  <tr>
+                    <!-- START FOOTER LABEL NULL-->
+                    <td align="center" valign="top">
+                      <table class="footerBttns-Label" role="presentation" width="120" height="30" cellpadding="0" cellspacing="0" border="0">
+                        <tr>
+                          <td align="center" valign="top">
+                            <p style="font-family:'Helvetica Neue', Helvetica, Arial, sans-serif; font-size:12px; line-height:16px; font-weight: 600; text-wrap: balance; -webkit-font-smoothing: antialiased; text-rendering: optimizeLegibility">&nbsp;</p>
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                  <!-- SPACER BELOW CORRECTS OUTLOOK RENDERING ISSUE-->
+                  <!--[if mso]>
+                                                <tr><td height="10" style="font-size:10px; line-height:1px; mso-line-height-rule:exactly;">&nbsp;<br></td></tr>
+                                                <![endif]-->
+                  <tr>
+                    <td align="center" valign="top">
+                      <table class="footerBttns-Buttons" role="presentation" width="120" height="90" cellpadding="0" cellspacing="0" border="0">
+                        <tr>
+                          <!-- START FOOTER BUTTON 03-->
+                          <td align="center" valign="top">
+                            <table class="footerBttns2" role="presentation" width="60" height="90" cellpadding="0" cellspacing="0" border="0">
+                              <tr>
+                                <td align="center" valign="top">
+                                  <table role="presentation" width="50" height="50" cellpadding="0" cellspacing="0" border="0">
+                                    <tr>
+                                      <td align="center" valign="top">
+                                        <!--[if mso]>
+                                                                                        <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="https://www.oregonlive.com/privacy-policy/" target="_blank" style="height:37.5pt;v-text-anchor:middle;width:37.5pt;" arcsize="50%" strokecolor="#F6CA15" fill="t">
+                                                                                            <v:fill type="frame" src="https://media.sailthru.com/fss/fld6id/bc5a2c11-5e60-483b-91e4-d67bb56a754c/HELP+dk_privacy.png" color="#F6CA15" />
+                                                                                            <w:anchorlock/>
+                                                                                            <center style="color:transparent;mso-style-textfill-type: none;font-family:sans-serif;font-size:1px;line-height:50px"></center>
+                                                                                        </v:roundrect>
+                                                                                        <![endif]--><a href="https://www.oregonlive.com/privacy-policy/" target="_blank" style="background-color:#F6CA15;background-image:url(https://media.sailthru.com/fss/fld6id/bc5a2c11-5e60-483b-91e4-d67bb56a754c/HELP+dk_privacy.png);background-size: 50px; background-repeat: no-repeat; background-position: center middle;border:1px solid #F6CA15; border-radius:28px;color:#F6CA15;display:inline-block;font-family:sans-serif;font-size:1px;font-weight:bold;line-height:50px;text-align:center;text-decoration:none;width:50px;-webkit-text-size-adjust:none;mso-hide:all;" alt="Privacy Policy">privacy</a>
+                                      </td>
+                                    </tr>
+                                  </table>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td align="center" valign="top">
+                                  <p style="font-family:'Helvetica Neue', Helvetica, Arial, sans-serif; font-size:12px; line-height:16px; font-weight: 500; text-align: center; text-wrap: balance; -webkit-font-smoothing: antialiased; text-rendering: optimizeLegibility">privacy</p>
+                                </td>
+                              </tr>
+                            </table>
+                          </td>
+                          <!-- END FOOTER BUTTON 03 -->
+                          <!-- START FOOTER BUTTON 04-->
+                          <td align="center" valign="top">
+                            <table class="footerBttns2" role="presentation" width="60" height="90" cellpadding="0" cellspacing="0" border="0">
+                              <tr>
+                                <td align="center" valign="top">
+                                  <table role="presentation" width="50" height="50" cellpadding="0" cellspacing="0" border="0">
+                                    <tr>
+                                      <td align="center" valign="top">
+                                        <!--[if mso]>
+                                                                                        <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="https://myaccount.oregonlive.com" target="_blank" style="height:37.5pt;v-text-anchor:middle;width:37.5pt;" arcsize="50%" strokecolor="#F6CA15" fill="t">
+                                                                                            <v:fill type="frame" src="https://media.sailthru.com/fss/fld6id/4959127b-a633-41fb-8b25-a1833d8d8281/HELP+dk_account.png" color="#F6CA15" />
+                                                                                            <w:anchorlock/>
+                                                                                            <center style="color:transparent;mso-style-textfill-type: none;font-family:sans-serif;font-size:1px;line-height:50px"></center>
+                                                                                        </v:roundrect>
+                                                                                        <![endif]--><a href="https://myaccount.oregonlive.com" target="_blank" style="background-color:#F6CA15;background-image:url(https://media.sailthru.com/fss/fld6id/4959127b-a633-41fb-8b25-a1833d8d8281/HELP+dk_account.png);background-size: 50px; background-repeat: no-repeat; background-position: center middle;border:1px solid #F6CA15; border-radius:28px;color:#F6CA15;display:inline-block;font-family:sans-serif;font-size:1px;font-weight:bold;line-height:50px;text-align:center;text-decoration:none;width:50px;-webkit-text-size-adjust:none;mso-hide:all;" alt="MyAccountOregonLive.com">account</a>
+                                      </td>
+                                    </tr>
+                                  </table>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td align="center" valign="top">
+                                  <p style="font-family:'Helvetica Neue', Helvetica, Arial, sans-serif; font-size:12px; line-height:16px; font-weight: 500; text-align: center; text-wrap: balance; -webkit-font-smoothing: antialiased; text-rendering: optimizeLegibility">account</p>
+                                </td>
+                              </tr>
+                            </table>
+                          </td>
+                          <!-- END FOOTER BUTTON 04 -->
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+              <!-- END FOOTER BUTTON GROUP NULL-->
+              <!-- START FOOTER BUTTON GROUP 02-->
+              <td align="center" valign="top">
+                <table class="footerBttns-Group" role="presentation" width="120" height="120" cellpadding="0" cellspacing="0" border="0">
+                  <tr>
+                    <!-- START FOOTER LABEL 01-->
+                    <td align="center" valign="top">
+                      <table class="footerBttns-Label footerTxt" role="presentation" width="120" height="30" cellpadding="0" cellspacing="0" border="0">
+                        <tr>
+                          <td align="center" valign="top">
+                            <p style="font-family:'Helvetica Neue', Helvetica, Arial, sans-serif; font-size:14px; line-height:16px; font-weight: 600; text-wrap: balance; -webkit-font-smoothing: antialiased; text-rendering: optimizeLegibility">Contact us</p>
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                  <!-- SPACER BELOW CORRECTS OUTLOOK RENDERING ISSUE-->
+                  <!--[if mso]>
+                                                <tr><td height="10" style="font-size:10px; line-height:1px; mso-line-height-rule:exactly;">&nbsp;<br></td></tr>
+                                                <![endif]-->
+                  <tr>
+                    <td align="center" valign="top">
+                      <table class="footerBttns-Buttons" role="presentation" width="120" height="90" cellpadding="0" cellspacing="0" border="0">
+                        <tr>
+                          <!-- START FOOTER BUTTON 05-->
+                          <td align="center" valign="top">
+                            <table class="footerBttns" role="presentation" width="60" height="90" cellpadding="0" cellspacing="0" border="0">
+                              <tr>
+                                <td align="center" valign="top">
+                                  <table role="presentation" width="50" height="50" cellpadding="0" cellspacing="0" border="0">
+                                    <tr>
+                                      <td align="center" valign="top">
+                                        <!--[if mso]>
+                                                                                        <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="mailto:hdelivery@oregonian.com?subject=Please%20help%20me with%20The Oregonian" target="_blank" style="height:37.5pt;v-text-anchor:middle;width:37.5pt;" arcsize="50%" strokecolor="#F6CA15" fill="t">
+                                                                                            <v:fill type="frame" src="https://media.sailthru.com/fss/fld6id/073784de-511e-4b27-848f-c45d9edbd5b0/HELP+dk_email.png" color="#F6CA15" />
+                                                                                            <w:anchorlock/>
+                                                                                            <center style="color:transparent;mso-style-textfill-type: none;font-family:sans-serif;font-size:1px;line-height:50px"></center>
+                                                                                        </v:roundrect>
+                                                                                        <![endif]--><a href="mailto:hdelivery@oregonian.com?subject=Please%20help%20me with%20The Oregonian" target="_blank" style="background-color:#F6CA15;background-image:url(https://media.sailthru.com/fss/fld6id/073784de-511e-4b27-848f-c45d9edbd5b0/HELP+dk_email.png);background-size: 50px; background-repeat: no-repeat; background-position: center middle;border:1px solid #F6CA15; border-radius:28px;color:#F6CA15;display:inline-block;font-family:sans-serif;font-size:1px;font-weight:bold;line-height:50px;text-align:center;text-decoration:none;width:50px;-webkit-text-size-adjust:none;mso-hide:all;" alt="hdelivery@oregonian.com">email</a>
+                                      </td>
+                                    </tr>
+                                  </table>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td align="center" valign="top">
+                                  <p style="font-family:'Helvetica Neue', Helvetica, Arial, sans-serif; font-size:12px; line-height:16px; font-weight: 500; text-align: center; text-wrap: balance; -webkit-font-smoothing: antialiased; text-rendering: optimizeLegibility">email</p>
+                                </td>
+                              </tr>
+                            </table>
+                          </td>
+                          <!-- END FOOTER BUTTON 05 -->
+                          <!-- START FOOTER BUTTON 06-->
+                          <td align="center" valign="top">
+                            <table class="footerBttns" role="presentation" width="60" height="90" cellpadding="0" cellspacing="0" border="0">
+                              <tr>
+                                <td align="center" valign="top">
+                                  <table role="presentation" width="50" height="50" cellpadding="0" cellspacing="0" border="0">
+                                    <tr>
+                                      <td align="center" valign="top">
+                                        <!--[if mso]>
+                                                                                        <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="tel:5032218240" target="_blank" style="height:37.5pt;v-text-anchor:middle;width:37.5pt;" arcsize="50%" strokecolor="#F6CA15" fill="t">
+                                                                                            <v:fill type="frame" src="https://media.sailthru.com/fss/fld6id/6510f5da-bcc8-4e36-987e-e0ddb50b9150/HELP+dk_phone.png" color="#F6CA15" />
+                                                                                            <w:anchorlock/>
+                                                                                            <center style="color:transparent;mso-style-textfill-type: none;font-family:sans-serif;font-size:1px;line-height:50px"></center>
+                                                                                        </v:roundrect>
+                                                                                        <![endif]--><a href="tel:5032218240" target="_blank" style="background-color:#F6CA15;background-image:url(https://media.sailthru.com/fss/fld6id/6510f5da-bcc8-4e36-987e-e0ddb50b9150/HELP+dk_phone.png);background-size: 50px; background-repeat: no-repeat; background-position: center middle;border:1px solid #F6CA15; border-radius:28px;color:#F6CA15;display:inline-block;font-family:sans-serif;font-size:1px;font-weight:bold;line-height:50px;text-align:center;text-decoration:none;width:50px;-webkit-text-size-adjust:none;mso-hide:all;" alt="5032218240">call</a>
+                                      </td>
+                                    </tr>
+                                  </table>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td align="center" valign="top">
+                                  <p style="font-family:'Helvetica Neue', Helvetica, Arial, sans-serif; font-size:12px; line-height:16px; font-weight: 500; text-align: center; text-wrap: balance; -webkit-font-smoothing: antialiased; text-rendering: optimizeLegibility">call</p>
+                                </td>
+                              </tr>
+                            </table>
+                          </td>
+                          <!-- END FOOTER BUTTON 06 -->
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+              <!-- END FOOTER BUTTON GROUP 02-->
+            </tr>
+          </table>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+
+  <table class="row-content stack" align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace:0;mso-table-rspace:0;border-radius:0;color:#25282c;width:600px;margin:0 auto; background-color: #E4E4E4" width="600">
+    <tbody>
+      <!--SPACER MOBILE ONLY-->
+      <tr>
+        <td height="0" class="spacerMob" style="font-size:10px; line-height:1px; mso-line-height-rule:exactly;">&nbsp;<br></td>
+      </tr>
+      <tr>
+        <td class="column column-1" style="mso-table-lspace:0;mso-table-rspace:0;font-weight:400;text-align:center;padding-top:5px;vertical-align:top">
+          <table class="paragraph_block block-1" width="380px" align="center" border="0" cellpadding="10" cellspacing="0" role="presentation" style="mso-table-lspace:0;mso-table-rspace:0;word-break:break-word">
+            <tbody>
+              <tr>
+                <td class="pad mobile-hpad">
+                  <div class=" footerAddress" style="color: #25282c; font-family:'Helvetica Neue', Helvetica, Arial, sans-serif; font-size:12px;font-weight:400;letter-spacing:0;line-height:1.66;text-align:center;mso-line-height-alt:20px">
+                    <p> <span class="txtHighlight" style="font-weight: 900; color: #000000; text-transform:uppercase">The Oregonian Online.</span><span style="font-weight: 900;">1500 SW First Ave. Suite 500, Portland,&nbsp;OR&nbsp;97201.</span>  
+                        To ensure receipt of our emails, please add <a rel="noopener" href="mailto:customercare@sts.OregonLive.com" target="_blank" style="color:#25282c; text-decoration:underline; text-transform: lowercase;">customercare@sts.OregonLive.com</a> to your address book or a safe sender list. You received this email because you are a subscriber to <a rel="noopener" href="https://www.OregonLive.com/" class="hovertext"  target="_blank" style="color:#25282c; text-decoration:none;">OregonLive.com</a> or <a rel="noopener" href="https://reader.theoregonian.com" class="hovertext"  target="_blank" style="color:#25282c; text-decoration:none;">The Oregonian</a>. Click&nbsp;here&nbsp;to&nbsp;<a rel="noopener" href="{optout_confirm_url + '&list_param=' + blast.list}" class="hoverText" target="_blank" style="color:#25282c; text-decoration:underline;">Unsubscribe.</a></p>
+                    </p>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td class="pad">
+                  <div class="footerTxt" style="color:#25282c;font-family:'Helvetica Neue', Helvetica, Arial, sans-serif; font-size:12px;font-weight:900;letter-spacing:0;line-height:1.66;text-align:center;mso-line-height-alt:20px">
+                    <p>
+                      <a rel="noopener" href="https://www.oregonlive.com/privacy-policy/" target="_blank" class="txtHighlight" style="color:#25282c; text-decoration:underline;">View in browser</a> &nbsp;|&nbsp;
+                      <a rel="noopener" href="CONTACTSURL" target="_blank" style="color:#25282c; text-decoration:underline;"  class="txtHighlight" >Contacts</a> &nbsp;|&nbsp;
+                      <a rel="noopener" href="https://myaccount.oregonlive.com" target="_blank" style="color:#25282c; text-decoration:underline;"  class="txtHighlight" >Get our newsletters</a>
+                    </p>
+                    </p>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td class="pad">
+                  <div style="color:#25282c;font-family:'Helvetica Neue', Helvetica, Arial, sans-serif; font-size:10px;font-weight:400;letter-spacing:0;line-height:1.66;text-align:center;mso-line-height-alt:20px">
+                    <p>
+                      ©2026. Advance Local. All rights reserved.
+                    </p>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                      <td class="pad" style="padding-bottom:0px;padding-left:25px;padding-right:10px;padding-top:10px;width:100%">
+                        <div class="alignment" align="center">
+                          <div class="fullWidth imgresize80" style="max-width:300px">
+
+                                <!-- Light Mode Image (Visible by default) -->
+                                <img src="images/Line_LT.png" alt="The Oregonian" title="The Oregonian" class="light-img" width="166" style="display: block;">
+
+                                <!-- Dark Mode Image (Hidden by default) -->
+                                <div class="dark-img" style="display:none; overflow:hidden; float:left; width:0; height:0; max-height:0; line-height:0; mso-hide:all;">
+                                  <img src="images/LINE_DK.png" alt="The Oregonian" title="The Oregonian" width="166" style="display: block;">
+                                </div>
+
+                          </div>
+                        </div>
+                      </td>
+              </tr>
+            </tbody>
+          </table>
+
+        </td>
+      </tr>
+    </tbody>
+  </table>
+
+  </td>
+  </tr>
+  </tbody>
+  </table>
+</footer>
